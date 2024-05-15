@@ -44,7 +44,7 @@ declare class Class_HttpMessage extends Class_Message {
     /**
      * @description 查询当前对象的来源 socket 
      */
-    readonly socket: Class_Stream;
+    readonly socket: Class_Socket;
 
     /**
      * @description 检查是否存在指定键值的消息头
